@@ -3,11 +3,7 @@
 ## 用法
 
 ```bash
-sudo bash bbr-direct-tune.sh
-sudo bash bbr-direct-tune.sh apply
-sudo bash bbr-direct-tune.sh restore
-bash bbr-direct-tune.sh status
-bash bbr-direct-tune.sh --help
+bash <(curl -sL https://raw.githubusercontent.com/funianshengsheng/VPS-TCP-TUNING/main/bbr-direct-tune.sh)
 ```
 
 ## 运行环境

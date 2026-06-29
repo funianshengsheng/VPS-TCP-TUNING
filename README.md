@@ -1,11 +1,4 @@
-# BBR 直连/落地优化独立版
-
-这是从 `Eric86777/vps-tcp-tune` 的 `net-tcp-tune.sh` 中单独提取的“BBR 直连/落地优化（智能带宽检测）”功能。
-
-## 文件
-
-- `bbr-direct-tune.sh`：独立可运行脚本。
-- `upstream-net-tcp-tune.sh`：下载的上游原始脚本，保留用于对照来源。
+# BBR 直连/落地优化脚本
 
 ## 用法
 

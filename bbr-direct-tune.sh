@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 # Standalone BBR tuning for optimize, landing and website servers.
-# Source: https://github.com/Eric86777/vps-tcp-tune/blob/main/net-tcp-tune.sh
-# Originally extracted from upstream v5.3.0 and independently maintained.
 
 set -o pipefail
 
@@ -79,8 +77,8 @@ TUNED_SYSCTL_KEYS=(
 
 ui_banner() {
     printf '%b\n' "${gl_hui}╭──────────────────────────────────────────────────────────────╮${gl_bai}"
-    printf '%b\n' "${gl_hui}│${gl_kjlan}  BBR DIRECT TUNE                     ${gl_hui}│${gl_bai}"
-    printf '%b\n' "${gl_hui}│${gl_zi}  适用于优化机 / 落地机 / 建站机等场景      ${gl_hui}│${gl_bai}"
+    printf '%b\n' "${gl_hui}│${gl_kjlan}  BBR DIRECT TUNE  网络调优  ${gl_hui}│${gl_bai}"
+    printf '%b\n' "${gl_hui}│${gl_zi}  适用于优化机 / 落地机 / 建站机等场景  ${gl_hui}│${gl_bai}"
     printf '%b\n' "${gl_hui}╰──────────────────────────────────────────────────────────────╯${gl_bai}"
 }
 

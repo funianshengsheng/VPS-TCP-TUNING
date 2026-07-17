@@ -1,8 +1,3 @@
-#!/usr/bin/env bash
-# Standalone BBR tuning for optimize, landing and website servers.
-# Source: https://github.com/Eric86777/vps-tcp-tune/blob/main/net-tcp-tune.sh
-# Originally extracted from upstream v5.3.0 and independently maintained.
-
 set -o pipefail
 
 SCRIPT_VERSION="6.5.1"
